@@ -6,7 +6,7 @@ with customers as (
         id,                                        -- as customer_id,
         first_name,
         last_name
-    from dbt_jaffle_shop.raw_customers
+    from dbt_coffee_shop.raw_customers
 
 ),
 
@@ -17,7 +17,7 @@ orders as (
         user_id,                                   -- as customer_id,
         order_date,
         status
-    from dbt_jaffle_shop.raw_orders
+    from dbt_coffee_shop.raw_orders
 
 ),
 

@@ -1,0 +1,6 @@
+# use dolphin scheduler run dbt project for test
+
+echo 'Start DBT to mssql,Use Demo project'
+sh dbt_project.sh
+echo 'Start DBT to mssql,Use Demo project2'
+sh dbt_project.sh coffee_shop

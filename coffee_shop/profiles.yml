@@ -1,5 +1,5 @@
 # example profiles.yml file
-jaffle_shop: # this needs to match the profile in your dbt_project.yml file
+coffee_shop: # this needs to match the profile in your dbt_project.yml file
   target: dev
   outputs:
     dev:
@@ -10,7 +10,7 @@ jaffle_shop: # this needs to match the profile in your dbt_project.yml file
       password: IT@123456789
       port: 1433
       database: DataTeam_test
-      schema: dbt_jaffle_shop
+      schema: dbt_coffee_shop
       retries: 1
       encrypt: false
       trust_cert: false

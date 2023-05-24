@@ -6,7 +6,7 @@ with first_trans as (
         customers.last_name as last_name,
         customers.first_order_date as first_order_date,
         customers.number_of_orders as orders
-    from dbt_jaffle_shop.customers
+    from dbt_coffee_shop.customers
     where first_order_date is not null
 ),
 second_trans as (
