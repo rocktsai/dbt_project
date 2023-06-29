@@ -91,3 +91,30 @@ Happy modeling!
 [0m03:41:07.702760 [debug] [MainThread]: STDERR: "b''"
 [0m03:41:07.703704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112793490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1127c21d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1127c2b60>]}
 [0m03:41:07.704286 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-24 02:35:51.183573 | 2b550433-891e-42ac-ab17-469f7cb28c23 ==============================
+[0m02:35:51.183612 [info ] [MainThread]: Running with dbt=1.3.1
+[0m02:35:51.185974 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/allentsai/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m02:35:51.186715 [debug] [MainThread]: Tracking: tracking
+[0m02:35:51.239444 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065e5180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065e7640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106616a40>]}
+[0m02:37:13.843614 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/include/starter_project
+[0m02:37:18.510637 [info ] [MainThread]: No sample profile found for sqlserver.
+[0m02:37:18.511338 [info ] [MainThread]: 
+Your new dbt project "parallel_1_1" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:37:18.511921 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1066167a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106616770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106616500>]}
+[0m02:37:18.512944 [debug] [MainThread]: Flushing usage events

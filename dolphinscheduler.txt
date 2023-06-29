@@ -4,3 +4,6 @@ echo 'Start DBT to mssql,Use Demo project'
 sh dbt_project.sh
 echo 'Start DBT to mssql,Use Demo project2'
 sh dbt_project.sh coffee_shop
+
+echo 'Test parallel workflow with 1 on 1'
+sh parallel_test.sh parallel_test parallel_customer.sql
